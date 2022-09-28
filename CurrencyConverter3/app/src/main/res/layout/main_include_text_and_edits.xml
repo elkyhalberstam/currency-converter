@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_main">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".5" />
+
+    <TextView
+        android:id="@+id/from"
+        style="@style/category"
+        android:text="@string/from"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar" />
+
+    <TextView
+        android:id="@+id/to"
+        style="@style/category"
+        android:text="@string/to"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_from_ct" />
+
+    <TextView
+        android:id="@+id/from_ct"
+        style="@style/text_views"
+        android:text="@string/currency_type"
+        app:layout_constraintEnd_toStartOf="@id/guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/from" />
+
+    <EditText
+        android:id="@+id/edit_from_ct"
+        style="@style/edit_text"
+        android:hint="@string/usd"
+        app:layout_constraintEnd_toStartOf="@id/guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/from_ct"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/amount"
+        style="@style/text_views"
+        android:text="@string/amount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guide"
+        app:layout_constraintTop_toBottomOf="@id/from" />
+
+    <EditText
+        android:id="@+id/edit_amount"
+        style="@style/edit_text"
+        android:hint="@string/_100"
+        android:importantForAutofill="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guide"
+        app:layout_constraintTop_toBottomOf="@id/amount" />
+
+
+    <TextView
+        android:id="@+id/to_ct"
+        style="@style/text_views"
+        android:text="@string/currency_type"
+        app:layout_constraintEnd_toEndOf="@id/guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/to" />
+
+    <EditText
+        android:id="@+id/edit_to_ct"
+        style="@style/edit_text"
+        android:hint="@string/hint_type"
+        app:layout_constraintEnd_toEndOf="@id/guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/to_ct" />
+
+    <TextView
+        android:id="@+id/factor"
+        style="@style/text_views"
+        android:text="@string/factor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guide"
+        app:layout_constraintTop_toBottomOf="@id/to" />
+
+    <EditText
+        android:id="@+id/edit_factor"
+        style="@style/edit_text"
+        android:autofillHints="@string/hint_factor"
+        android:hint="@string/hint_factor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guide"
+        app:layout_constraintTop_toBottomOf="@id/factor" />
+</merge>

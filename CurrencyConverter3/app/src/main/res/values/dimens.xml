@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="slim_margin">4dp</dimen>
+    <dimen name="standard_margin">8dp</dimen>
+
+
+    <dimen name="card_text_header_size">27sp</dimen>
+    <dimen name="card_text_standard_size">18sp</dimen>
+    <dimen name="card_text_larger_size">24sp</dimen>
+
+
+</resources>

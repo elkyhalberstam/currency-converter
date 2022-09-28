@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="banner_text">Please enter in the currency types and numbers</string>
+    <string name="currency_type">Currency Type</string>
+    <string name="amount">Amount</string>
+    <string name="factor">Factor</string>
+    <string name="calculate">Calculate</string>
+    <string name="_100">100</string>
+    <string name="usd">USD</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+
+    <string name="clear">Clear Number on Calculate</string>
+    <string name="about">About</string>
+    <string name="about_dialog">This Currency Converter app was created by Elky Halberstam, for her Final Project in the Android App Development Course (MCON 255) during the Summer Semester of 2022</string>
+    <string name="info">Info</string>
+    <string name="info_dialog">This app converts an amount from the currency of your choice to another currency of your choice. Just input the currencies, the amount of money and the exchange rate (in decimal format) then click the button to calculate.</string>
+    <string name="hint_factor">.2</string>
+    <string name="fab">calculating</string>
+    <string name="hint_type">CAD</string>
+    <string name="clear_key">CLEAR</string>
+    <string name="clear_title">Clears Number On Calculation</string>
+    <string name="splash_screen">Splash Screen</string>
+</resources>
